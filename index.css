@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
   }
@@ -51,4 +51,50 @@
   .li1{
       display: inline-block;
       margin: 0;
+  } */
+
+
+
+  *{
+    margin:0;
+    padding: 0;
   }
+  .navSize{
+    font-size: xx-large;
+  }
+  #photo{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+  }
+  #left{
+width: 50%;
+height: 50%;
+float: left;
+  }
+  #right{
+ width: 49%;
+ float: right;
+  position: relative;
+  padding-bottom: 10%;
+ }
+ #name{
+   margin-top: 15%;
+   margin-left: 11%;
+   font-size: 6rem;
+ }
+ #intro{
+   height: 70%;
+ }
+ #intro-text{
+   font-size: 150%;
+   margin-left: 12%;
+   margin-top: 10%;
+ }
+#project{
+  margin-top: 40rem;
+}
+.projectSpace{
+  margin-top: 50rem;
+}
